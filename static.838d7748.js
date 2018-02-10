@@ -479,7 +479,7 @@ var HomePage = function (_Component) {
         }
       };
 
-      xmlhttp.open('POST', 'https://www.1-goal.com/methods//api/demo/request', true);
+      xmlhttp.open('POST', 'https://api.1-goal.com/methods//api/demo/request', true);
       xmlhttp.setRequestHeader("Content-Type", "application/json");
       xmlhttp.send(JSON.stringify([email]));
     }
@@ -2443,4 +2443,4 @@ module.exports = require("grommet/components/icons/base/SocialMail");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d78826fd.js.map
+//# sourceMappingURL=static.838d7748.js.map
