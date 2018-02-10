@@ -464,9 +464,9 @@ var HomePage = function (_Component) {
           // XMLHttpRequest.DONE == 4
           if (xmlhttp.status == 200) {
             if (error2) {
-              this.setState({ error: null, sent: true });
+              self.setState({ error: null, sent: true });
             } else {
-              this.setState({ error2: null, sent2: true });
+              self.setState({ error2: null, sent2: true });
             }
           } else {
             var error = 'An error occurred sending. Please try again later.';
@@ -2443,4 +2443,4 @@ module.exports = require("grommet/components/icons/base/SocialMail");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.838d7748.js.map
+//# sourceMappingURL=static.1ae460a0.js.map
